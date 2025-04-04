@@ -1,0 +1,27 @@
+.heroSection {
+  height: 858px;
+  width: 1320px;
+}
+
+.doctorImage {
+  height: 518px;
+  left: 477px;
+  top: 340px;
+  width: 366px;
+}
+
+@media (max-width: 768px) {
+  .heroSection {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .doctorImage {
+    position: relative !important;
+    left: 0;
+    margin: 1.25rem auto;
+    width: 80%;
+    height: auto;
+  }
+}

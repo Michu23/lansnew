@@ -1,0 +1,912 @@
+@import "https://fonts.googleapis.com/css?family=Inter:0,400;0,undefined&display=swap";
+.Frame_1686552066_1_5273 {
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 1440px;
+  padding: 48px 60px;
+  display: flex;
+  position: relative;
+}
+.Join_4000CompaniesRecruitingFrom_10Countries_1_5274 {
+  color: #19191999;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  display: inline-block;
+}
+.Frame_1686552129_1_5275 {
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  display: flex;
+}
+.Logos_1_5276 {
+  align-items: center;
+  gap: 48px;
+  display: flex;
+}
+.Frame_1686552123_1_5277 {
+  border: 1px solid var(--Logo-card-stroke, #fff);
+  box-sizing: border-box;
+  background: #f1f4f800;
+  border-radius: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 30px;
+  display: flex;
+}
+.Frame_1686552124_1_5278 {
+  align-items: center;
+  gap: 58px;
+  display: flex;
+}
+.FictionalCompanyLogo_1_5279 {
+  aspect-ratio: 59/17;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8.95533px;
+  width: 118px;
+  height: 34px;
+  padding: 1.417px 0.203px 1.417px 0;
+  display: flex;
+}
+.Logomark_1_5280 {
+  flex-shrink: 0;
+  width: 26.85px;
+  height: 31.167px;
+}
+.Logotype_1_5282 {
+  fill: #3b3b3b;
+  flex-shrink: 0;
+  width: 81.991px;
+  height: 20.578px;
+}
+.Italy_1_5283 {
+  aspect-ratio: 17/13;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 26px;
+  display: flex;
+  overflow: hidden;
+}
+.Italy_1_5284 {
+  /* background: #d3d3d3 url(<path-to-image>) 50% / cover no-repeat; */
+  flex-shrink: 0;
+  width: 34px;
+  height: 26px;
+}
+.CandidatesOnboarded_1_5285 {
+  color: #19191999;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+.Frame_1686552124_1_5286 {
+  border: 1px solid var(--Logo-card-stroke, #fff);
+  box-sizing: border-box;
+  background: #f1f4f800;
+  border-radius: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 30px;
+  display: flex;
+}
+.Frame_1686552124_1_5287 {
+  align-items: center;
+  gap: 58px;
+  display: flex;
+}
+.FictionalCompanyLogo_1_5288 {
+  aspect-ratio: 117/34;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7.55533px;
+  width: 117px;
+  padding: 1.417px 0.264px 1.417px 0;
+  display: flex;
+}
+.Logomark_1_5289 {
+  flex-flow: row;
+  flex-grow: 1;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0;
+  width: 31.012px;
+  height: 31.167px;
+  display: flex;
+}
+.Shape_1_5290 {
+  box-sizing: border-box;
+  border: 2px solid #3b3b3b;
+  border-radius: 31.167px;
+  flex-shrink: 0;
+  width: 31.012px;
+  height: 31.167px;
+}
+.Shape_1_5291 {
+  box-sizing: border-box;
+  border: 2px solid #3b3b3b;
+  border-radius: 31.089px;
+  flex-shrink: 0;
+  width: 18.371px;
+  height: 31.089px;
+  transform: rotate(45deg);
+}
+.Shape_1_5292 {
+  box-sizing: border-box;
+  border: 2px solid #3b3b3b;
+  border-radius: 31.089px;
+  flex-shrink: 0;
+  width: 18.371px;
+  height: 31.089px;
+  transform: rotate(-45deg);
+}
+.Logotype_1_5293 {
+  fill: #3b3b3b;
+  flex-shrink: 0;
+  width: 78.169px;
+  height: 19.699px;
+}
+.Uae_1_5294 {
+  aspect-ratio: 17/13;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 26px;
+  display: flex;
+  overflow: hidden;
+}
+.Uae_1_5295 {
+  /* background: #d3d3d3 url(<path-to-image>) 50% / cover no-repeat; */
+  flex-shrink: 0;
+  width: 34px;
+  height: 26px;
+}
+.CandidatesOnboarded_1_5296 {
+  color: #19191999;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+.Frame_1686552125_1_5297 {
+  border: 1px solid var(--Logo-card-stroke, #fff);
+  box-sizing: border-box;
+  background: #f1f4f800;
+  border-radius: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 30px;
+  display: flex;
+}
+.Frame_1686552124_1_5298 {
+  align-items: center;
+  gap: 58px;
+  display: flex;
+}
+.FictionalCompanyLogo_1_5299 {
+  aspect-ratio: 70/17;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6.40968px;
+  width: 140px;
+  padding: 1.417px 0.303px 1.417px 0;
+  display: flex;
+}
+.Logomark_1_5300 {
+  flex-shrink: 0;
+  width: 31.269px;
+  height: 31.167px;
+}
+.Logotype_1_5302 {
+  fill: #3b3b3b;
+  flex-shrink: 0;
+  width: 102.018px;
+  height: 15.534px;
+}
+.Japan_1_5303 {
+  aspect-ratio: 17/13;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 26px;
+  display: flex;
+  overflow: hidden;
+}
+.Japan_1_5304 {
+  /* background: #d3d3d3 url(<path-to-image>) 50% / cover no-repeat; */
+  flex-shrink: 0;
+  width: 34px;
+  height: 26px;
+}
+.CandidatesOnboarded_1_5305 {
+  color: #19191999;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+.Frame_1686552126_1_5306 {
+  border: 1px solid var(--Logo-card-stroke, #fff);
+  box-sizing: border-box;
+  background: #f1f4f800;
+  border-radius: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 30px;
+  display: flex;
+  position: relative;
+}
+.Frame_1686552124_1_5307 {
+  align-items: center;
+  gap: 58px;
+  display: flex;
+}
+.FictionalCompanyLogo_1_5308 {
+  aspect-ratio: 60/17;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8.03294px;
+  width: 120px;
+  height: 34px;
+  padding: 1.417px 0.521px 1.417px 0;
+  display: flex;
+}
+.Logomark_1_5309 {
+  flex-shrink: 0;
+  width: 31.059px;
+  height: 31.167px;
+}
+.Logotype_1_5311 {
+  fill: #12195b;
+  flex-shrink: 0;
+  width: 80.388px;
+  height: 15.47px;
+}
+.Germany_1_5312 {
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 26px;
+  display: flex;
+  overflow: hidden;
+}
+.Germany_1_5313 {
+  /* background: #d3d3d3 url(<path-to-image>) 50% / cover no-repeat; */
+  flex-shrink: 0;
+  width: 34px;
+  height: 26px;
+}
+.KCandidatesOnboarded_1_5314 {
+  color: #19191999;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+.Frame_1_5315 {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  bottom: 0.537px;
+  right: 94.038px;
+  overflow: hidden;
+  transform: rotate(-21.376deg);
+}
+.Frame_1686552127_1_5318 {
+  border: 1px solid var(--Logo-card-stroke, #fff);
+  box-sizing: border-box;
+  background: #f1f4f800;
+  border-radius: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 30px;
+  display: flex;
+}
+.Frame_1686552124_1_5319 {
+  align-items: center;
+  gap: 58px;
+  display: flex;
+}
+.FictionalCompanyLogo_1_5320 {
+  aspect-ratio: 64/17;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7.64483px;
+  width: 128px;
+  height: 34px;
+  padding: 1.417px 0.544px 1.417px 0;
+  display: flex;
+}
+.Logomark_1_5321 {
+  flex-shrink: 0;
+  width: 30.945px;
+  height: 31.1667px;
+  overflow: hidden;
+}
+.Logotype_1_5323 {
+  fill: #3b3b3b;
+  flex-shrink: 0;
+  width: 88.866px;
+  height: 15.003px;
+}
+.Usa_1_5324 {
+  aspect-ratio: 17/13;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 26px;
+  display: flex;
+  overflow: hidden;
+}
+.Usa_1_5325 {
+  /* background: #d3d3d3 url(<path-to-image>) 50% / cover no-repeat; */
+  flex-shrink: 0;
+  width: 34px;
+  height: 26px;
+}
+.CandidatesOnboarded_1_5326 {
+  color: #19191999;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+.Frame_1686552128_1_5327 {
+  border: 1px solid var(--Logo-card-stroke, #fff);
+  box-sizing: border-box;
+  background: #f1f4f800;
+  border-radius: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 30px;
+  display: flex;
+}
+.Frame_1686552124_1_5328 {
+  align-items: center;
+  gap: 58px;
+  display: flex;
+}
+.FictionalCompanyLogo_1_5329 {
+  aspect-ratio: 70/17;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7.02263px;
+  width: 140px;
+  padding: 1.417px 0.107px 1.417px 0;
+  display: flex;
+}
+.Logomark_1_5330 {
+  flex-flow: row;
+  flex-grow: 1;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0;
+  width: 31.111px;
+  height: 31.167px;
+  display: flex;
+}
+.Logotype_1_5337 {
+  fill: #3b3b3b;
+  flex-shrink: 0;
+  width: 101.759px;
+  height: 14.419px;
+}
+.Canada_1_5338 {
+  aspect-ratio: 17/13;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 26px;
+  display: flex;
+  overflow: hidden;
+}
+.Canada_1_5339 {
+  /* background: #d3d3d3 url(<path-to-image>) 50% / cover no-repeat; */
+  flex-shrink: 0;
+  width: 34px;
+  height: 26px;
+}
+.KCandidatesOnboarded_1_5340 {
+  color: #19191999;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+.Logos_1_5341 {
+  align-items: center;
+  gap: 48px;
+  padding-left: 80px;
+  display: flex;
+}
+.Frame_1686552126_1_5342 {
+  border: 1px solid var(--Logo-card-stroke, #fff);
+  box-sizing: border-box;
+  background: #f1f4f800;
+  border-radius: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 30px;
+  display: flex;
+}
+.Frame_1686552124_1_5343 {
+  align-items: center;
+  gap: 58px;
+  display: flex;
+}
+.FictionalCompanyLogo_1_5344 {
+  aspect-ratio: 60/17;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8.03294px;
+  width: 120px;
+  height: 34px;
+  padding: 1.417px 0.521px 1.417px 0;
+  display: flex;
+}
+.Logomark_1_5345 {
+  flex-shrink: 0;
+  width: 31.059px;
+  height: 31.167px;
+}
+.Logotype_1_5347 {
+  fill: #3b3b3b;
+  flex-shrink: 0;
+  width: 80.388px;
+  height: 15.47px;
+}
+.Germany_1_5348 {
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 26px;
+  display: flex;
+  overflow: hidden;
+}
+.Germany_1_5349 {
+  /* background: #d3d3d3 url(<path-to-image>) 50% / cover no-repeat; */
+  flex-shrink: 0;
+  width: 34px;
+  height: 26px;
+}
+.KCandidatesOnboarded_1_5350 {
+  color: #19191999;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+.Frame_1686552127_1_5351 {
+  border: 1px solid var(--Logo-card-stroke, #fff);
+  box-sizing: border-box;
+  background: #f1f4f800;
+  border-radius: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 30px;
+  display: flex;
+}
+.Frame_1686552124_1_5352 {
+  align-items: center;
+  gap: 58px;
+  display: flex;
+}
+.FictionalCompanyLogo_1_5353 {
+  aspect-ratio: 64/17;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7.64483px;
+  width: 128px;
+  height: 34px;
+  padding: 1.417px 0.544px 1.417px 0;
+  display: flex;
+}
+.Logomark_1_5354 {
+  flex-shrink: 0;
+  width: 30.945px;
+  height: 31.1667px;
+  overflow: hidden;
+}
+.Logotype_1_5356 {
+  fill: #3b3b3b;
+  flex-shrink: 0;
+  width: 88.866px;
+  height: 15.003px;
+}
+.Usa_1_5357 {
+  aspect-ratio: 17/13;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 26px;
+  display: flex;
+  overflow: hidden;
+}
+.Usa_1_5358 {
+  /* background: #d3d3d3 url(<path-to-image>) 50% / cover no-repeat; */
+  flex-shrink: 0;
+  width: 34px;
+  height: 26px;
+}
+.CandidatesOnboarded_1_5359 {
+  color: #19191999;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+.Frame_1686552123_1_5360 {
+  border: 1px solid var(--Logo-card-stroke, #fff);
+  box-sizing: border-box;
+  background: #f1f4f800;
+  border-radius: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 30px;
+  display: flex;
+}
+.Frame_1686552124_1_5361 {
+  align-items: center;
+  gap: 58px;
+  display: flex;
+}
+.FictionalCompanyLogo_1_5362 {
+  aspect-ratio: 59/17;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8.95533px;
+  width: 118px;
+  height: 34px;
+  padding: 1.417px 0.203px 1.417px 0;
+  display: flex;
+}
+.Logomark_1_5363 {
+  flex-shrink: 0;
+  width: 26.85px;
+  height: 31.167px;
+}
+.Logotype_1_5365 {
+  fill: #3b3b3b;
+  flex-shrink: 0;
+  width: 81.991px;
+  height: 20.578px;
+}
+.Italy_1_5366 {
+  aspect-ratio: 17/13;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 26px;
+  display: flex;
+  overflow: hidden;
+}
+.Italy_1_5367 {
+  /* background: #d3d3d3 url(<path-to-image>) 50% / cover no-repeat; */
+  flex-shrink: 0;
+  width: 34px;
+  height: 26px;
+}
+.CandidatesOnboarded_1_5368 {
+  color: #19191999;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+.Frame_1686552124_1_5369 {
+  border: 1px solid var(--Logo-card-stroke, #fff);
+  box-sizing: border-box;
+  background: #f1f4f800;
+  border-radius: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 30px;
+  display: flex;
+}
+.Frame_1686552124_1_5370 {
+  align-items: center;
+  gap: 58px;
+  display: flex;
+}
+.FictionalCompanyLogo_1_5371 {
+  aspect-ratio: 117/34;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7.55533px;
+  width: 117px;
+  padding: 1.417px 0.264px 1.417px 0;
+  display: flex;
+}
+.Logomark_1_5372 {
+  flex-flow: row;
+  flex-grow: 1;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0;
+  width: 31.012px;
+  height: 31.167px;
+  display: flex;
+}
+.Shape_1_5373 {
+  box-sizing: border-box;
+  border: 2px solid #3b3b3b;
+  border-radius: 31.167px;
+  flex-shrink: 0;
+  width: 31.012px;
+  height: 31.167px;
+}
+.Shape_1_5374 {
+  box-sizing: border-box;
+  border: 2px solid #3b3b3b;
+  border-radius: 31.089px;
+  flex-shrink: 0;
+  width: 18.371px;
+  height: 31.089px;
+  transform: rotate(45deg);
+}
+.Shape_1_5375 {
+  box-sizing: border-box;
+  border: 2px solid #3b3b3b;
+  border-radius: 31.089px;
+  flex-shrink: 0;
+  width: 18.371px;
+  height: 31.089px;
+  transform: rotate(-45deg);
+}
+.Logotype_1_5376 {
+  fill: #3b3b3b;
+  flex-shrink: 0;
+  width: 78.169px;
+  height: 19.699px;
+}
+.Uae_1_5377 {
+  aspect-ratio: 17/13;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 26px;
+  display: flex;
+  overflow: hidden;
+}
+.Uae_1_5378 {
+  /* background: #d3d3d3 url(<path-to-image>) 50% / cover no-repeat; */
+  flex-shrink: 0;
+  width: 34px;
+  height: 26px;
+}
+.CandidatesOnboarded_1_5379 {
+  color: #19191999;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+.Frame_1686552128_1_5380 {
+  border: 1px solid var(--Logo-card-stroke, #fff);
+  box-sizing: border-box;
+  background: #f1f4f800;
+  border-radius: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 30px;
+  display: flex;
+}
+.Frame_1686552124_1_5381 {
+  align-items: center;
+  gap: 58px;
+  display: flex;
+}
+.FictionalCompanyLogo_1_5382 {
+  aspect-ratio: 70/17;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7.02263px;
+  width: 140px;
+  padding: 1.417px 0.107px 1.417px 0;
+  display: flex;
+}
+.Logomark_1_5383 {
+  flex-flow: row;
+  flex-grow: 1;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0;
+  width: 31.111px;
+  height: 31.167px;
+  display: flex;
+}
+.Logotype_1_5390 {
+  fill: #3b3b3b;
+  flex-shrink: 0;
+  width: 101.759px;
+  height: 14.419px;
+}
+.Canada_1_5391 {
+  aspect-ratio: 17/13;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 26px;
+  display: flex;
+  overflow: hidden;
+}
+.Canada_1_5392 {
+  /* background: #d3d3d3 url(<path-to-image>) 50% / cover no-repeat; */
+  flex-shrink: 0;
+  width: 34px;
+  height: 26px;
+}
+.KCandidatesOnboarded_1_5393 {
+  color: #19191999;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+.Frame_1686552125_1_5394 {
+  border: 1px solid var(--Logo-card-stroke, #fff);
+  box-sizing: border-box;
+  background: #f1f4f800;
+  border-radius: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 30px;
+  display: flex;
+}
+.Frame_1686552124_1_5395 {
+  align-items: center;
+  gap: 58px;
+  display: flex;
+}
+.FictionalCompanyLogo_1_5396 {
+  aspect-ratio: 70/17;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6.40968px;
+  width: 140px;
+  padding: 1.417px 0.303px 1.417px 0;
+  display: flex;
+}
+.Logomark_1_5397 {
+  flex-shrink: 0;
+  width: 31.269px;
+  height: 31.167px;
+}
+.Logotype_1_5399 {
+  fill: #3b3b3b;
+  flex-shrink: 0;
+  width: 102.018px;
+  height: 15.534px;
+}
+.Japan_1_5400 {
+  aspect-ratio: 17/13;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 26px;
+  display: flex;
+  overflow: hidden;
+}
+.Japan_1_5401 {
+  /* background: #d3d3d3 url(<path-to-image>) 50% / cover no-repeat; */
+  flex-shrink: 0;
+  width: 34px;
+  height: 26px;
+}
+.CandidatesOnboarded_1_5402 {
+  color: #19191999;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+.Rectangle_4831_1_5403 {
+  background: linear-gradient(90deg, #fbfbfb 22.98%, #fbfbfb00 112.63%);
+  width: 248px;
+  height: 359px;
+  position: absolute;
+  top: 0;
+}
+.Rectangle_4832_1_5404 {
+  background: linear-gradient(90deg, #fbfbfb 22.98%, #fbfbfb00 112.63%);
+  width: 248px;
+  height: 359px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

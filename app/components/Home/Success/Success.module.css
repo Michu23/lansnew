@@ -1,0 +1,148 @@
+.success {
+  padding: clamp(40px, 6vw, 80px) 0;
+  background-color: #fff;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(16px, 3vw, 20px);
+  text-align: center;
+  width: 100%;
+}
+
+.header {
+  margin-bottom: clamp(40px, 5vw, 60px);
+}
+
+.header h2 {
+  color: var(--neutral-dark-blue--e, #102643);
+  font-family: "Helvetica Now Display", sans-serif;
+  font-size: clamp(32px, 5vw, 56px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  margin-bottom: clamp(16px, 2vw, 24px);
+}
+
+.header p {
+  color: #191919;
+  font-family: Inter, sans-serif;
+  font-size: clamp(16px, 1.8vw, 18px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.metricsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: clamp(20px, 2.5vw, 32px);
+  margin-top: clamp(24px, 3vw, 40px);
+  width: 100%;
+}
+
+.metric {
+  background: white;
+  padding: clamp(24px, 3vw, 32px) clamp(16px, 2vw, 24px);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+
+.metric:hover {
+  transform: translateY(-5px);
+}
+
+.metricCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: clamp(12px, 1.5vw, 16px);
+  align-self: stretch;
+  width: 100%;
+}
+
+.metricCard h3 {
+  font-size: clamp(28px, 3.5vw, 40px);
+  margin-bottom: clamp(6px, 1vw, 8px);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.metricCard p {
+  font-size: clamp(14px, 1.6vw, 18px);
+  margin: 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 992px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .col-6 {
+    width: 100%;
+    padding: 0;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: clamp(32px, 4vw, 48px);
+  }
+
+  .header h2 {
+    text-align: center !important;
+  }
+
+  .d-flex {
+    flex-direction: column;
+    gap: clamp(16px, 2vw, 24px) !important;
+  }
+
+  .metricCard {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .success {
+    padding: clamp(32px, 4vw, 48px) 0;
+  }
+
+  .metricCard {
+    gap: clamp(10px, 1.2vw, 12px);
+  }
+
+  .metric {
+    padding: clamp(20px, 2.5vw, 28px) clamp(14px, 1.8vw, 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 clamp(12px, 2vw, 16px);
+  }
+
+  .header h2 {
+    font-size: clamp(28px, 4vw, 32px);
+  }
+
+  .header p {
+    font-size: clamp(14px, 1.6vw, 16px);
+  }
+
+  .metricCard h3 {
+    font-size: clamp(24px, 3vw, 28px);
+  }
+
+  .metricCard p {
+    font-size: clamp(13px, 1.4vw, 14px);
+  }
+}

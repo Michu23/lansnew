@@ -1,0 +1,40 @@
+.featureCard {
+  width: 348px;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #075985;
+}
+
+.cardDescription {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: rgba(24, 24, 27, 0.8);
+}
+
+@media (max-width: 768px) {
+  .featureCard {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 1.25rem auto;
+    width: 90%;
+  }
+}
+
+@media (max-width: 640px) {
+  .featureCard {
+    width: 100%;
+  }
+
+  .cardTitle {
+    font-size: 1.125rem;
+  }
+
+  .cardDescription {
+    font-size: 0.875rem;
+  }
+}

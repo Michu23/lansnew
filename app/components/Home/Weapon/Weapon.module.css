@@ -1,0 +1,147 @@
+@import "https://fonts.googleapis.com/css?family=Inter:0,400&display=swap";
+
+.wrapper {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 100px; /* Add spacing after the component */
+}
+
+.weaponSection {
+  background: linear-gradient(113deg, #040503 2.32%, #0c294b 97.68%);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
+  min-height: 100vh;
+  padding: 80px 0;
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+
+.contentContainer {
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  width: 100%;
+  padding: 0 60px;
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.headerContainer {
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  display: flex;
+}
+
+.titleContainer {
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 729px;
+  display: flex;
+}
+
+.mainTitle {
+  text-align: center !important;
+  font-family: Helvetica Now Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  display: inline-block;
+  color: #e9edff;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: Helvetica Now Display;
+  font-size: clamp(22px, 1.8vw, 32px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%;
+  display: inline-block;
+  color: #ffffffe6;
+}
+
+.description {
+  text-align: center;
+  font-family: Inter;
+  font-size: clamp(26px, 1.8vw, 24px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+  color: #ffffff4d;
+}
+
+.featuresTitle {
+  text-align: center;
+  font-family: Helvetica Now Display;
+  font-size: clamp(28px, 1.8vw, 32px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%;
+  display: inline-block;
+  color: #e9edff;
+}
+
+.featuresContainer {
+  /* These styles are replaced by Bootstrap's row class */
+}
+
+.featureCard {
+  border: 1px solid var(--Lans-Blue-Stroke-Grad, #1f5f95);
+  box-sizing: border-box;
+  background: linear-gradient(#0c294b 0%, #145498 100%);
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  box-shadow: inset 14px 14px 50px #ffffff0a;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+  box-shadow: inset 14px 14px 50px #ffffff1a, 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.iconContainer {
+  background: #7ba5d0;
+  border-radius: 24px;
+  align-items: center;
+  gap: 10px;
+  width: 48px;
+  height: 48px;
+  padding: 10px;
+  display: flex;
+}
+
+.iconWrapper {
+  aspect-ratio: 1;
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+
+.featureText {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}

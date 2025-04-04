@@ -1,0 +1,255 @@
+.containerShapeCareer {
+  display: flex;
+  width: 98vw;
+  margin-left: 1vw;
+  padding: 80px 60px;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+
+  background: linear-gradient(180deg, #fef9ef 0%, #fff 100%);
+}
+
+@media screen and (max-width: 768px) {
+  .containerShapeCareer {
+    padding: 40px 20px;
+  }
+}
+
+.badge {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 50px;
+  border: 2px solid #c88e21;
+  background: linear-gradient(91deg, #f9b22c 0.42%, #ffefd0 99.58%);
+  box-shadow: -9px -4px 10px 0px #ffc149 inset, 0px 4px 10px 0px #fff inset;
+}
+
+.Frame_1686552174_1_5833 {
+  background: #fdf2d8;
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+}
+.Frame_1686552172_1_5834 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  width: 616px;
+  display: flex;
+}
+.Frame_1686552134_1_5835 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  display: flex;
+}
+.GetPlacedAbroadWithConfidence_1_5836 {
+  color: #0c294b;
+  font-family: Helvetica Now Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  display: inline-block;
+}
+.EnhanceYourCareerWithExpertLedLanguageTrainingGloballyRecognizedCertificationsAndSeamlessJobPlacementSupport_1_5837 {
+  color: #191919cc;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+.Frame_1686552178_1_5838 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  display: flex;
+}
+.Frame_1686552175_1_5839 {
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  display: flex;
+}
+.Frame_1686552047_1_5840 {
+  aspect-ratio: 1;
+  background: #f9b22b;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 32px;
+  height: 32px;
+  padding: 10px;
+  display: flex;
+}
+.Frame_1_5841 {
+  aspect-ratio: 1;
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+.Frame_1686552179_1_5843 {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  display: flex;
+}
+.GlobalHealthcareJobPlacement_1_5844 {
+  color: #0c294b;
+  font-family: Helvetica Now Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  display: inline-block;
+}
+.SecureYourCareerInGermanyWithOurDedicatedJobPlacementServicesConnectingYouWithTopHealthcareInstitutionsCorporateFirmsAndMore_1_5845 {
+  color: #191919cc;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+.Frame_1686552176_1_5846 {
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  display: flex;
+}
+.Frame_1686552047_1_5847 {
+  aspect-ratio: 1;
+  background: #f9b22b;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 32px;
+  height: 32px;
+  padding: 10px;
+  display: flex;
+}
+.Frame_1_5848 {
+  aspect-ratio: 1;
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+.Frame_1686552180_1_5850 {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  display: flex;
+}
+.FastTrackYourPathToEmployment_1_5851 {
+  color: #0c294b;
+  font-family: Helvetica Now Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  display: inline-block;
+}
+.OurFastTrackProgramsCompleteLanguageTrainingAndJobPlacementIn_6To_9MonthsSpeedingUpYourEmploymentInGermany_1_5852 {
+  color: #191919cc;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+.Frame_1686552177_1_5853 {
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  display: flex;
+}
+.Frame_1686552047_1_5854 {
+  aspect-ratio: 1;
+  background: #f9b22b;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 32px;
+  height: 32px;
+  padding: 10px;
+  display: flex;
+}
+.Frame_1_5855 {
+  aspect-ratio: 1;
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+.Frame_1686552181_1_5857 {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  display: flex;
+}
+.JoinAThrivingCommunityOfProfessionals_1_5858 {
+  color: #0c294b;
+  font-family: Helvetica Now Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  display: inline-block;
+}
+.JoinThousandsOfSuccessfulCandidatesWhoHaveBuiltThrivingCareersInGermanyThroughOurLanguageAndPlacementPrograms_1_5859 {
+  color: #191919cc;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+.Button_1_5860 {
+  background: var(--neutral-blue--ar, #3e78ff);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 20px;
+  display: flex;
+}
+.LearnMore_1_5861 {
+  color: #fff;
+  font-family: Helvetica Now Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  display: inline-block;
+}
+.ArrowUpRight_1_5862 {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}

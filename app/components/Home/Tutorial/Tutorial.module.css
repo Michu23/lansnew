@@ -1,0 +1,230 @@
+@import "https://fonts.googleapis.com/css?family=Inter:0,400&display=swap";
+
+.tutorialContainer {
+  background: linear-gradient(#f8f9ff 0%, #fff 100%);
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(2rem, 4vw, 4rem);
+  width: 100%;
+  padding: clamp(40px, 5vw, 80px) clamp(20px, 3vw, 60px);
+  display: flex;
+  overflow-x: hidden;
+}
+
+.videoTutorialTitle {
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(12px, 1.5vw, 16px);
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.learnGermanTitle {
+  color: var(--neutral-dark-blue--e, #102643);
+  text-align: center;
+  font-family: "Helvetica Now Display", sans-serif;
+  font-size: clamp(32px, 5vw, 56px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  display: inline-block;
+  margin-bottom: clamp(8px, 1vw, 16px);
+}
+
+.courseDescription {
+  color: #191919;
+  text-align: center;
+  width: 100%;
+  max-width: 729px;
+  font-family: Inter, sans-serif;
+  font-size: clamp(16px, 1.8vw, 18px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.rowContainer {
+  /* These styles are replaced by Bootstrap's row class */
+}
+
+.blogPostCard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blogPostCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+.frameContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentSection {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.headingAndSubheading {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+  display: flex;
+}
+
+.subheadingText {
+  color: var(--Primary-700, #6e40ff);
+  font-family: Inter, sans-serif;
+  font-size: clamp(12px, 1.4vw, 14px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.4;
+  display: inline-block;
+}
+
+.headingAndText {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+  display: flex;
+}
+
+.headingAndIcon {
+  align-items: flex-start;
+  gap: clamp(12px, 1.5vw, 16px);
+  width: 100%;
+  display: flex;
+}
+
+.headingText {
+  color: #0c294b;
+  flex: 1;
+  font-family: "Helvetica Now Display", sans-serif;
+  font-size: clamp(20px, 2.2vw, 24px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.3;
+  display: inline-block;
+}
+
+.iconWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 4px;
+  display: flex;
+}
+
+.arrowIcon {
+  width: clamp(20px, 2.2vw, 24px);
+  height: clamp(20px, 2.2vw, 24px);
+  transition: transform 0.3s ease;
+}
+
+.blogPostCard:hover .arrowIcon {
+  transform: translate(4px, -4px);
+}
+
+.supportingText {
+  color: #191919;
+  font-family: Inter, sans-serif;
+  font-size: clamp(14px, 1.6vw, 16px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+
+/* Large screens (lg) */
+@media (min-width: 1200px) {
+  .blogPostCard {
+    flex: 1 1 calc(33.333% - 32px);
+  }
+}
+
+/* Tablet (md) */
+@media (max-width: 992px) {
+  .rowContainer {
+    justify-content: space-between;
+  }
+
+  .blogPostCard {
+    flex: 1 1 calc(50% - 16px);
+  }
+}
+
+/* Mobile (sm) */
+@media (max-width: 768px) {
+  .rowContainer {
+    flex-direction: column;
+  }
+
+  .blogPostCard {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .imageContainer {
+    aspect-ratio: 16/10;
+  }
+}
+
+/* Extra Small (xs) */
+@media (max-width: 480px) {
+  .tutorialContainer {
+    padding: clamp(32px, 4vw, 40px) clamp(16px, 2vw, 20px);
+    gap: clamp(1.5rem, 3vw, 2rem);
+  }
+
+  .learnGermanTitle {
+    font-size: clamp(28px, 4vw, 32px);
+  }
+
+  .courseDescription {
+    font-size: clamp(14px, 1.6vw, 16px);
+  }
+
+  .headingText {
+    font-size: clamp(18px, 2vw, 20px);
+  }
+
+  .supportingText {
+    font-size: clamp(13px, 1.4vw, 14px);
+  }
+
+  .imageContainer {
+    aspect-ratio: 16/12;
+  }
+
+  .frameContainer {
+    width: clamp(56px, 7vw, 64px);
+    height: clamp(56px, 7vw, 64px);
+  }
+}

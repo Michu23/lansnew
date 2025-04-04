@@ -1,0 +1,629 @@
+@import "https://fonts.googleapis.com/css?family=Inter:0,400;0,500&display=swap";
+
+.frameworkContainer {
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 1440px;
+  padding: clamp(40px, 5vw, 80px) clamp(20px, 4vw, 60px);
+  display: flex;
+}
+
+.contentWrapper {
+  flex-shrink: 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1320px;
+  display: flex;
+  gap: clamp(30px, 4vw, 60px);
+}
+
+.leftSection {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: clamp(24px, 3vw, 40px);
+  display: flex;
+  flex: 1;
+}
+
+.headerSection {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: clamp(12px, 2vw, 16px);
+  display: flex;
+  width: 100%;
+}
+
+.badgeContainer {
+  box-sizing: border-box;
+  background: linear-gradient(91deg, #f9b22c 0.42%, #ffefd0 99.58%);
+  border: 2px solid #c88e21;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+  display: flex;
+  box-shadow: inset -9px -4px 10px #ffc149, inset 0 4px 10px #fff;
+}
+
+.badgeText {
+  color: #7b5a1f;
+  text-align: center;
+  font-family: "Helvetica Now Display", sans-serif;
+  font-size: clamp(12px, 1.2vw, 14px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  display: inline-block;
+}
+
+.titleContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: clamp(12px, 2vw, 16px);
+  display: flex;
+  width: 100%;
+}
+
+.mainTitle {
+  color: var(--neutral-dark-blue--e, #102643);
+  font-family: "Helvetica Now Display", sans-serif;
+  font-size: clamp(32px, 4vw, 48px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  display: inline-block;
+}
+
+.mainDescription {
+  color: #191919;
+  font-family: Inter, sans-serif;
+  font-size: clamp(16px, 1.8vw, 18px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+
+.ctaButton {
+  background: var(--neutral-blue--ar, #3e78ff);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 20px;
+  display: flex;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.ctaButton:hover {
+  background: #2b5cd9;
+}
+
+.ctaButtonText {
+  color: #fff;
+  font-family: "Helvetica Now Display", sans-serif;
+  font-size: clamp(14px, 1.6vw, 16px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  display: inline-block;
+}
+
+.ctaButtonIcon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+
+.featuresContainer {
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  gap: clamp(20px, 2.5vw, 30px);
+  width: 100%;
+  max-width: 616px;
+  display: flex;
+  position: relative;
+}
+
+.timelineLine {
+  background: #5487b6;
+  border-radius: 10px;
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  top: 16px;
+  left: 14px;
+}
+
+.featureItem {
+  align-items: flex-start;
+  gap: clamp(12px, 1.5vw, 16px);
+  width: 100%;
+  display: flex;
+}
+
+.featureNumber {
+  aspect-ratio: 1;
+  background: #5487b6;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: clamp(28px, 3vw, 32px);
+  height: clamp(28px, 3vw, 32px);
+  padding: 8px;
+  display: flex;
+  flex-shrink: 0;
+}
+
+.featureNumberText {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Helvetica Now Display", sans-serif;
+  font-size: clamp(14px, 1.6vw, 16px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  display: inline-block;
+}
+
+.featureContent {
+  flex-direction: column;
+  flex: 1;
+  align-items: flex-start;
+  gap: clamp(8px, 1vw, 10px);
+  width: 100%;
+  display: flex;
+}
+
+.featureTitle {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 4px 0;
+  display: flex;
+}
+
+.featureTitleText {
+  color: #0c294b;
+  font-family: "Helvetica Now Display", sans-serif;
+  font-size: clamp(18px, 2vw, 20px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  display: inline-block;
+}
+
+.featureDescription {
+  color: #191919cc;
+  font-family: Inter, sans-serif;
+  font-size: clamp(14px, 1.6vw, 16px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+
+.OurLearningFramework_1_3061 {
+  color: #7b5a1f;
+  text-align: center;
+  font-family: Helvetica Now Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  display: inline-block;
+}
+
+.Frame_1686552189_1_3062 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  display: flex;
+}
+
+.SimpleStructuredEffective_1_3063 {
+  color: var(--neutral-dark-blue--e, #102643);
+  font-family: Helvetica Now Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  display: inline-block;
+}
+
+.MasterGermanFromA1ToB2WithAStructuredCurriculumThatBuildsAStrongFoundationInSpeakingReadingWritingAndListeningEngageInLiveSessionsGroupDiscussionsAndRolePlaysWithPersonalizedFeedbackToMatchYourLearningStyle_1_3064 {
+  color: #191919;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+
+.Button_1_3065 {
+  background: var(--neutral-blue--ar, #3e78ff);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 20px;
+  display: flex;
+}
+
+.LearnMore_1_3066 {
+  color: #fff;
+  font-family: Helvetica Now Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  display: inline-block;
+}
+
+.ArrowUpRight_1_3067 {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+
+.Frame_1686552188_1_3069 {
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  gap: 30px;
+  width: 616px;
+  display: flex;
+  position: relative;
+}
+
+.Rectangle_4836_1_3070 {
+  background: #5487b6;
+  border-radius: 10px;
+  width: 4px;
+  height: 410px;
+  position: absolute;
+  top: 16px;
+  left: 14px;
+}
+
+.Frame_1686552176_1_3071 {
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  display: flex;
+}
+
+.Frame_1686552047_1_3072 {
+  aspect-ratio: 1;
+  background: #5487b6;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 32px;
+  height: 32px;
+  padding: 10px;
+  display: flex;
+}
+
+.generated_01_1_3073 {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Helvetica Now Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  display: inline-block;
+}
+
+.Frame_1686552180_1_3074 {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  display: flex;
+}
+
+.Frame_1686552185_1_3075 {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 4px 0;
+  display: flex;
+}
+
+.MinuteCapsules_1_3076 {
+  color: #0c294b;
+  flex: 1 0 0;
+  font-family: Helvetica Now Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  display: inline-block;
+}
+
+.BiteSizedFocusedLearningSessionsDesignedToFitIntoYourBusyScheduleMakingContinuousLearningManageableAndEffective_1_3077 {
+  color: #191919cc;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+
+.Frame_1686552185_1_3078 {
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  display: flex;
+}
+
+.Frame_1686552047_1_3079 {
+  aspect-ratio: 1;
+  background: #5487b6;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 32px;
+  height: 32px;
+  padding: 10px;
+  display: flex;
+}
+
+.generated_02_1_3080 {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Helvetica Now Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  display: inline-block;
+}
+
+.Frame_1686552180_1_3081 {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  display: flex;
+}
+
+.Frame_1686552185_1_3082 {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 4px 0;
+  display: flex;
+}
+
+.CecrMethod_1_3083 {
+  color: #0c294b;
+  flex: 1 0 0;
+  font-family: Helvetica Now Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  display: inline-block;
+}
+
+.TheCommonEuropeanFrameworkOfReferenceForLanguagesIsAGuidelineForDescribingTheAchievementsOfForeignLanguageLearnersAcrossEuropeAndBeyond_1_3084 {
+  color: #191919;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  display: inline-block;
+}
+
+.Frame_1686552186_1_3085 {
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  display: flex;
+}
+
+.Frame_1686552047_1_3086 {
+  aspect-ratio: 1;
+  background: #5487b6;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 32px;
+  height: 32px;
+  padding: 10px;
+  display: flex;
+}
+
+.generated_03_1_3087 {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Helvetica Now Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  display: inline-block;
+}
+
+.Frame_1686552180_1_3088 {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  display: flex;
+}
+
+.Frame_1686552185_1_3089 {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 4px 0;
+  display: flex;
+}
+
+.VernacularClasses_1_3090 {
+  color: #0c294b;
+  flex: 1 0 0;
+  font-family: Helvetica Now Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  display: inline-block;
+}
+
+.EngagingClassesConductedProactivelyInYourNativeLanguageEnsuringClarityAndComfortInUnderstandingWhilePromotingActiveParticipationAndEffectiveLearning_1_3091 {
+  color: #191919cc;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+
+.Frame_1686552187_1_3092 {
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  display: flex;
+}
+
+.Frame_1686552047_1_3093 {
+  aspect-ratio: 1;
+  background: #5487b6;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 32px;
+  height: 32px;
+  padding: 10px;
+  display: flex;
+}
+
+.generated_04_1_3094 {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Helvetica Now Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  display: inline-block;
+}
+
+.Frame_1686552180_1_3095 {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  display: flex;
+}
+
+.Frame_1686552185_1_3096 {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 4px 0;
+  display: flex;
+}
+
+.KnowledgeChecksProgressTracking_1_3097 {
+  color: #0c294b;
+  flex: 1 0 0;
+  font-family: Helvetica Now Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  display: inline-block;
+}
+
+.RegularQuizzesToTestYourKnowledgeReinforceLearningAndProvideInstantFeedbackHelpingYouTrackYourProgressAndStayMotivated_1_3098 {
+  color: #191919cc;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .contentWrapper {
+    flex-direction: column;
+  }
+
+  .leftSection {
+    align-items: center;
+    text-align: center;
+  }
+
+  .headerSection {
+    align-items: center;
+  }
+
+  .titleContainer {
+    align-items: center;
+  }
+
+  .featuresContainer {
+    padding-left: clamp(10px, 2vw, 20px);
+  }
+
+  .timelineLine {
+    left: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .badgeContainer {
+    padding: 6px 12px;
+  }
+
+  .ctaButton {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .featureItem {
+    align-items: flex-start;
+  }
+
+  .featureTitle {
+    flex-wrap: wrap;
+  }
+}

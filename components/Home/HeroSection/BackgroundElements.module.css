@@ -1,0 +1,24 @@
+.overlay {
+  mix-blend-mode: exclusion;
+}
+
+.blueCircle {
+  position: absolute;
+  width: 559px;
+  height: 691px;
+  right: -175px;
+  top: -24px;
+  transform: rotate(90deg);
+  border-radius: 691px;
+  background: #1960ab;
+  filter: blur(202px);
+}
+
+.waveLine {
+  position: absolute;
+  width: 2940px;
+  height: 1171px;
+  left: -961px;
+  top: -901px;
+  transform: rotate(26.087deg);
+}
