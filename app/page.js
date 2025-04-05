@@ -93,9 +93,9 @@ export default function Home() {
           <HeroSection />
         </section>
 
-        {/* <section className={styles.section}>
+        <section className={styles.section}>
           <Companies />
-        </section> */}
+        </section>
 
         <section className={styles.section}>
           <ShapeCareer />
