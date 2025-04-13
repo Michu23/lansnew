@@ -4,7 +4,10 @@ import styles from "./WhatsAppButton.module.css";
 
 const WhatsAppButton = () => {
   const handleClick = () => {
-    window.open("https://wa.me/your-number", "_blank");
+    window.open(
+      "https://wa.me/7907139748?text=Hello, I want to learn German with you",
+      "_blank"
+    );
   };
 
   return (

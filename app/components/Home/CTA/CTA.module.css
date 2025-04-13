@@ -153,11 +153,11 @@
 }
 
 .profileColumn.left .profileList {
-  animation: scrollDown 400s linear infinite;
+  animation: scrollDown 200s linear infinite;
 }
 
 .profileColumn.right .profileList {
-  animation: scrollUp 400s linear infinite;
+  animation: scrollUp 200s linear infinite;
 }
 
 .profileColumn:hover .profileList {

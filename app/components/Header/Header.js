@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <Link href="/" className={styles.logo}>
+        <div className={styles.logo}>
           <Image
             src="/assets/Logo.svg"
             alt="Lanstitut Logo"
@@ -16,16 +16,16 @@ const Header = () => {
             height={50}
             priority
           />
-        </Link>
+        </div>
 
         <nav className={styles.nav}>
-          <Link href="/for-candidates">For Candidates</Link>
-          <Link href="/for-recruiters">For Recruiters</Link>
-          <Link href="/about-us">About Us</Link>
-          <Link href="/blogs">Blogs</Link>
+          <span>For Candidates</span>
+          <span>For Recruiters</span>
+          <span>About Us</span>
+          <span>Blogs</span>
         </nav>
 
-        <Link href="/schedule-demo" className={styles.demoButton}>
+        <div className={styles.demoButton}>
           Schedule a Demo
           <svg
             width="16"
@@ -42,7 +42,7 @@ const Header = () => {
               strokeLinejoin="round"
             />
           </svg>
-        </Link>
+        </div>
       </div>
     </header>
   );

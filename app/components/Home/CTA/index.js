@@ -35,7 +35,10 @@ const ProfileCard = ({ profile }) => (
               src={profile.image}
               alt={profile.name}
               fill
-              style={{ objectFit: "cover" }}
+              style={{
+                objectFit: "cover",
+                objectPosition: "top 20%",
+              }}
             />
           </div>
           <div className={styles.profileInfo}>
