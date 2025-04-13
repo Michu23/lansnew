@@ -1,64 +1,74 @@
 "use client";
 import React from "react";
 import styles from "./Testimonials.module.css";
-import Icon from "../../../../public/assets/White.png";
+import Icon from "../../../../public/assets/BlackLogo.png";
 import Image from "next/image";
 
 const testimonials = [
   {
-    name: "Amelie",
-    location: "Working in Germany",
+    name: "Selin Sam",
+    location: "A2 completed student",
     quote:
-      "Lanstitut helped me pass my TELC B1 exam and get hired in Berlin. The support was incredible!",
-    image: "https://randomuser.me/api/portraits/women/1.jpg",
+      "The class was very good, the teacher also understood, if there was any question, she would tell everyone. I am very happy to attend the class.",
+    image: "/assets/Testimonials/Selin.jpeg",
     isDark: false,
   },
   {
-    name: "David",
-    location: "Working in Germany",
+    name: "Ajay kumar U",
+    location: "A1 student",
     quote:
-      "The medical language training was exactly what I needed. Now I work in my dream hospital in Munich!",
-    image: "https://randomuser.me/api/portraits/men/2.jpg",
+      "I am learning Deutsch A1 classes since one month our tutor #msAngel she's very good in teaching and clearing doubts of language thank you #lanstitut",
+    image: "/assets/Testimonials/Ajay.jpeg",
     isDark: true,
   },
   {
-    name: "Sarah",
-    location: "Working in Austria",
+    name: "Arshad Ali",
+    location: "Lanstitut student",
     quote:
-      "From struggling with German to confidently treating patients - Lanstitut made it possible!",
-    image: "https://randomuser.me/api/portraits/women/3.jpg",
+      "I totally love the institution, the way teachers will understand each and every minute things is awesome and I'm really happy to be part of this institution I really look forward to utilise much more.",
+    image: "/assets/Testimonials/Arshad.jpeg",
     isDark: false,
   },
   {
-    name: "Michael",
-    location: "Working in Switzerland",
+    name: "Dekshitha p Kuruba",
+    location: "Lanstitut student",
     quote:
-      "The interview preparation was fantastic. I got multiple job offers thanks to Lanstitut!",
-    image: "https://randomuser.me/api/portraits/men/4.jpg",
+      "The classes are really good and very interesting too, and engaging also , and our teacher Ms Angel is really good she concentrate on each student's and Always clarify our doubts very easily  and she is very supportive too.",
+    image: "/assets/Testimonials/Dekshitha.jpeg",
+    isDark: true,
+  },
+  {
+    name: "Reema",
+    location: "Lanstitut student",
+    quote:
+      "The classes are really good and very interesting too, and engaging also , and our teacher Ms Angel is really good she concentrate on each student's and Always clarify our doubts very easily  and she is very supportive too.",
+    image: "/assets/Testimonials/Reema.jpeg",
+    isDark: true,
+  },
+  {
+    name: "Chithara Chandaran",
+    location: "B2 completed student",
+    quote:
+      "It was a great experience for me to learn german in Lanstitut. I liked the way of teaching very easy to understand and also the friendly atmosphere .I am glad that i joined this coaching got to know many things and also enjoyed the classes.",
+    image: "/assets/Testimonials/B2-Chithara.jpeg",
     isDark: true,
   },
 ];
-
 const Testimonials = () => {
   return (
     <div className={styles.testimonialsSection}>
       <div className={styles.backgroundImage} />
       <div className={styles.headerContainer}>
         <div className={styles.headerContent}>
-          <h2 className={styles.mainTitle}>
-            3L+ Healthcare Professionals Have
-            <br />
-            Transformed Their Careers With Lanstitut
-          </h2>
+          <h2 className={styles.mainTitle}>What Success Sounds Like</h2>
           <p className={styles.subtitle}>
-            Real Professionals, Real Success Stories - See How Lanstitut Helped
-            Thousands Secure Their Dream Jobs Abroad
+            Professionals share how structured support turned their global
+            dreams into dependable careers.
           </p>
         </div>
       </div>
       <div className={styles.testimonialsGrid}>
         <div className={styles.testimonialTrack}>
-          {/* First set of testimonials */}
           {testimonials.map((testimonial, index) => (
             <div key={`first-${index}`} className={styles.testimonialCard}>
               <div

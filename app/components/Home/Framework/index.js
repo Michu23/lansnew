@@ -12,15 +12,13 @@ export default function FrameworkSection() {
                 <span className={styles.badgeText}>Our Learning Framework</span>
               </div>
               <div className={styles.titleContainer}>
-                <span className={styles.mainTitle}>
-                  Simple, Structured & Effective
-                </span>
+                <span className={styles.mainTitle}>The Lanstitute Pathway</span>
                 <span className={styles.mainDescription}>
-                  Master German from A1 to B2 with a structured curriculum that
-                  builds a strong foundation in speaking, reading, writing, and
-                  listening. Engage in live sessions, group discussions, and
-                  role-plays, with personalized feedback to match your learning
-                  style.
+                  A structured process designed to build global
+                  readiness—through foundational learning, interview-focused
+                  training, cultural orientation, on-ground recognition, and
+                  continuous career development. Each stage moves professionals
+                  closer to success in international healthcare systems.
                 </span>
               </div>
             </div>
@@ -54,13 +52,11 @@ export default function FrameworkSection() {
               <div className={styles.featureContent}>
                 <div className={styles.featureTitle}>
                   <span className={styles.featureTitleText}>
-                    15-Minute Capsules
+                    Foundational Support
                   </span>
                 </div>
                 <span className={styles.featureDescription}>
-                  Bite sized, focused learning sessions designed to fit into
-                  your busy schedule, making continuous learning manageable and
-                  effective.
+                  Tutoring and mentoring in A1–A2 to build your base.
                 </span>
               </div>
             </div>
@@ -70,12 +66,12 @@ export default function FrameworkSection() {
               </div>
               <div className={styles.featureContent}>
                 <div className={styles.featureTitle}>
-                  <span className={styles.featureTitleText}>CECR Method</span>
+                  <span className={styles.featureTitleText}>
+                    Career-Focused Training
+                  </span>
                 </div>
                 <span className={styles.featureDescription}>
-                  The Common European Framework of Reference for Languages is a
-                  guideline for describing the achievements of foreign language
-                  learners across Europe and beyond
+                  Interview readiness built into your B1 level
                 </span>
               </div>
             </div>
@@ -86,13 +82,11 @@ export default function FrameworkSection() {
               <div className={styles.featureContent}>
                 <div className={styles.featureTitle}>
                   <span className={styles.featureTitleText}>
-                    Vernacular Classes
+                    Cultural Immersion
                   </span>
                 </div>
                 <span className={styles.featureDescription}>
-                  Engaging classes conducted proactively in your native
-                  language, ensuring clarity and comfort in understanding, while
-                  promoting active participation and effective learning.
+                  Learn how to live and work confidently during B2.
                 </span>
               </div>
             </div>
@@ -103,13 +97,26 @@ export default function FrameworkSection() {
               <div className={styles.featureContent}>
                 <div className={styles.featureTitle}>
                   <span className={styles.featureTitleText}>
-                    Knowledge Checks & Progress Tracking
+                    On-Ground Recognition
                   </span>
                 </div>
                 <span className={styles.featureDescription}>
-                  Regular quizzes to test your knowledge, reinforce learning,
-                  and provide instant feedback, helping you track your progress
-                  and stay motivated.
+                  Smooth qualification recognition after landing.
+                </span>
+              </div>
+            </div>
+            <div className={styles.featureItem}>
+              <div className={styles.featureNumber}>
+                <span className={styles.featureNumberText}>05</span>
+              </div>
+              <div className={styles.featureContent}>
+                <div className={styles.featureTitle}>
+                  <span className={styles.featureTitleText}>
+                    Upskilling Beyond Borders
+                  </span>
+                </div>
+                <span className={styles.featureDescription}>
+                  Ongoing learning for long-term career success.
                 </span>
               </div>
             </div>

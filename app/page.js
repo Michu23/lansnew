@@ -98,11 +98,11 @@ export default function Home() {
         </section>
 
         <section className={styles.section}>
-          <ShapeCareer />
+          <Success />
         </section>
 
         <section className={styles.section}>
-          <Success />
+          <ShapeCareer />
         </section>
 
         <section className={styles.section}>

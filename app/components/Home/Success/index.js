@@ -18,28 +18,28 @@ const Success = () => {
   const metrics = [
     {
       number: "60K",
-      label: "Success Stories",
+      label: "Global Job Placements",
       bg: "#FEFAF0",
       color: "#634818",
       gap: "80px",
     },
     {
       number: "100K",
-      label: "Happy Students",
+      label: "Happy Clients ",
       bg: "#F8F9FF",
       color: "#102643",
       gap: "60px",
     },
     {
       number: "100%",
-      label: "Satisfaction Rate",
+      label: "Career Success Stories",
       bg: "#F8F9FF",
       color: "#102643",
       gap: "60px",
     },
     {
       number: "95%",
-      label: "Job Placement Success",
+      label: "Visa & Relocation Success",
       bg: "#FEFAF0",
       color: "#634818",
       gap: "80px",
@@ -64,12 +64,10 @@ const Success = () => {
                 visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
               }}
             >
-              <h2 className="text-start">
-                Proven Success: Our Impact in Numbers
-              </h2>
+              <h2 className="text-start">Success You Can Count On</h2>
               <p>
-                Empowering learners with structured training, real-world skills,
-                and career-ready certifications.
+                Every number carries the weight of thoughtful planning and a
+                commitment to long-term success.
               </p>
             </motion.div>
           </div>

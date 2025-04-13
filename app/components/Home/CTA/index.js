@@ -4,40 +4,24 @@ import styles from "./CTA.module.css";
 
 const profiles = [
   {
-    name: "Reed Switzer",
-    role: "Physiotherapist",
-    image:
-      "https://images.pexels.com/photos/4909509/pexels-photo-4909509.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    exp: "4+ years",
-    degree: "FCCM",
-    qualification: "GMC",
+    name: "Hideena",
+    role: "B2 student",
+    image: "/assets/Testimonials/B2-Hideena.jpeg",
   },
   {
-    name: "Nicole Zhang",
-    role: "Nurse",
-    image:
-      "https://images.pexels.com/photos/4909509/pexels-photo-4909509.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    exp: "4+ years",
-    degree: "FCCM",
-    qualification: "GMC",
+    name: "Jipes",
+    role: "B2 student",
+    image: "/assets/Testimonials/B2-Jipes.jpeg",
   },
   {
-    name: "Patrick Smith",
-    role: "Physiotherapist",
-    image:
-      "https://images.pexels.com/photos/4909509/pexels-photo-4909509.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    exp: "4+ years",
-    degree: "FCCM",
-    qualification: "GMC",
+    name: "Swathi",
+    role: "B2 student",
+    image: "/assets/Testimonials/B2-Swathi.png",
   },
   {
-    name: "Zubair Ahmed",
-    role: "Doctor",
-    image:
-      "https://images.pexels.com/photos/4909509/pexels-photo-4909509.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    exp: "4+ years",
-    degree: "FCCM",
-    qualification: "GMC",
+    name: "Chithara",
+    role: "B2 student",
+    image: "/assets/Testimonials/B2-Chithara.jpeg",
   },
 ];
 
@@ -58,24 +42,6 @@ const ProfileCard = ({ profile }) => (
             <span className={styles.profileName}>{profile.name}</span>
             <div className={styles.profileRole}>
               <span className={styles.roleText}>{profile.role}</span>
-            </div>
-          </div>
-        </div>
-        <div className={styles.profileDetails}>
-          <div className={styles.detailsContainer}>
-            <div className={styles.detailGroup}>
-              <span className={styles.detailLabel}>Exp</span>
-              <span className={styles.detailValue}>{profile.exp}</span>
-            </div>
-            <div className={styles.detailGroup}>
-              <span className={styles.detailLabel}>Degree</span>
-              <span className={styles.detailValue}>{profile.degree}</span>
-            </div>
-            <div className={styles.detailGroup}>
-              <span className={styles.detailLabel}>Qualification</span>
-              <span className={styles.detailValue}>
-                {profile.qualification}
-              </span>
             </div>
           </div>
         </div>

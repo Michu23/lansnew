@@ -1,24 +1,21 @@
-"use client";
 import React from "react";
 import styles from "./Shape.module.css";
-import Image from "next/image";
 
-export default function ShapeCard() {
+export default function ShapeCard2() {
   return (
     <div className={styles.Frame_1686552174_1_5833}>
       <div className={styles.Frame_1686552172_1_5834}>
         <div className={styles.Frame_1686552134_1_5835}>
           <span className={styles.GetPlacedAbroadWithConfidence_1_5836}>
-            Who should learn German with us
+            Get Placed Abroad with Confidence
           </span>
           <span
             className={
               styles.EnhanceYourCareerWithExpertLedLanguageTrainingGloballyRecognizedCertificationsAndSeamlessJobPlacementSupport_1_5837
             }
           >
-            This program is open to BSc and GNM nurses under 45, and to Plus Two
-            or degree holders planning to pursue higher education or Ausbildung
-            in Germany, with eligibility up to age 28.
+            Enhance your career with expert-led language training, globally
+            recognized certifications, and seamless job placement support
           </span>
         </div>
         <div className={styles.Frame_1686552178_1_5838}>
@@ -141,18 +138,7 @@ export default function ShapeCard() {
           </div>
         </div>
       </div>
-      <div className={styles.Image_1_5864}>
-        <Image
-          src="/assets/Home/Card.png"
-          alt="Shape Career"
-          width={500}
-          height={500}
-          style={{
-            objectFit: "cover",
-            objectPosition: "center",
-          }}
-        />
-      </div>
+      <div className={styles.Image_1_5864}></div>
     </div>
   );
 }

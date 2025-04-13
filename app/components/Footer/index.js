@@ -21,12 +21,14 @@ export default function Footer() {
             <div className={styles.divider} />
             <div className={styles.brandDescription}>
               <h2 className={styles.brandTitle}>
-                Bridging Dreams to Global Healthcare Careers
+                It All Starts with the Right Foundation
               </h2>
               <p className={styles.brandTagline}>
-                Connecting skilled healthcare professionals with international
-                job opportunities through AI-powered matching, language
-                training, and visa support.
+                Let’s turn aspirations into action with a pathway designed just
+                for you. From personalized guidance to ongoing support, we’re
+                here to make every step toward your international healthcare
+                career smooth, secure, and successful. Reach out today and let
+                your journey truly begin.
               </p>
             </div>
           </div>
@@ -214,7 +216,7 @@ export default function Footer() {
       </div>
       <div className={styles.backgroundDecoration} aria-hidden="true">
         <svg
-          width="1440"
+          width="100%"
           height="213"
           viewBox="0 0 1440 213"
           fill="none"

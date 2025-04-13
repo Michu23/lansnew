@@ -138,6 +138,7 @@
   border-radius: 10px;
   width: 4px;
   height: 100%;
+  z-index: 0;
   position: absolute;
   top: 16px;
   left: 14px;
@@ -148,6 +149,7 @@
   gap: clamp(12px, 1.5vw, 16px);
   width: 100%;
   display: flex;
+  z-index: 1;
 }
 
 .featureNumber {

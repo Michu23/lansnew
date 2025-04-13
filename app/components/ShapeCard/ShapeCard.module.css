@@ -1,0 +1,28 @@
+.shapeCard {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: -2rem;
+  z-index: 1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shapeCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.shapeCard:nth-child(odd) {
+  margin-left: 2rem;
+  z-index: 2;
+}
+
+.shapeCard:nth-child(even) {
+  margin-right: 2rem;
+  z-index: 1;
+} 

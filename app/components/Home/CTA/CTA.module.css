@@ -153,11 +153,11 @@
 }
 
 .profileColumn.left .profileList {
-  animation: scrollDown 40s linear infinite;
+  animation: scrollDown 400s linear infinite;
 }
 
 .profileColumn.right .profileList {
-  animation: scrollUp 40s linear infinite;
+  animation: scrollUp 400s linear infinite;
 }
 
 .profileColumn:hover .profileList {
@@ -183,8 +183,8 @@
 }
 
 .profileCard {
-  width: 100%;
-  min-width: 300px;
+  width: 100% !important;
+  min-width: 100%;
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
   border-radius: 20px;
@@ -203,6 +203,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
+  width: 100%;
   display: flex;
 }
 
@@ -211,6 +212,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  width: 100%;
   gap: 12px;
   display: flex;
 }

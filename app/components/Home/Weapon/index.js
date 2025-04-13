@@ -12,15 +12,15 @@ export default function Weapon() {
               Lanstitut Language Learning
             </span>
             <span className={styles.subtitle}>
-              The secret weapon to cracking global nursing roles
+              Why We Still Lead the Way to Germany
             </span>
           </div>
           <span className={styles.description}>
-            Thousands of skilled healthcare professionals dream of working
-            abroad but face a major roadblock&#x2014;language proficiency.
-            Despite having the right qualifications, they struggle with medical
-            communication, patient interactions, and interviews in a new
-            language.
+            We are deeply committed to planning and tracking your progress
+            toward success. Every step is carefully monitored as part of our
+            service, with a focus on impactful outcomes. Here's how we
+            confidently stand apart—through the key features that shape your
+            future.
           </span>
         </div>
         <span className={styles.featuresTitle}>

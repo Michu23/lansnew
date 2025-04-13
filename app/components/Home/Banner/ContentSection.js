@@ -10,16 +10,13 @@ const ContentSection = () => {
       <div className="d-flex flex-column align-items-center gap-3 w-100">
         <header className="d-flex flex-column align-items-center">
           <h1 className={`text-center text-white ${styles.title}`}>
-            Polish Your Skills and Secure
-            <br />a Position in Top Global Healthcare
+            You’re Qualified.
+            <br />
+            We Prove It Globally.
           </h1>
         </header>
         <p className={`text-center text-white ${styles.description}`}>
-          At Lanstitut, we help healthcare professionals secure top-paying jobs
-          worldwide. Get trained,polish your skill sets,
-          <br />
-          gain proficiency in a foreign language, and receive job placement
-          support from us.
+          Join thousands of nurses advancing their careers with Lanstitute.
         </p>
       </div>
       <div className="d-flex justify-content-center gap-3">

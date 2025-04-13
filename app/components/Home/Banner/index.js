@@ -23,22 +23,22 @@ const HeroSection = () => {
 
         <FeatureCard
           className={styles.firstFeatureCard}
-          title="Global Job Opportunities"
-          description="Access jobs in top healthcare destinations."
+          title="Visa Processing & Relocation "
+          description="We simplify your visa and relocation process"
           icon={<GlobeIcon />}
         />
 
         <FeatureCard
           className={styles.secondFeatureCard}
-          title="Language & Certification Support"
-          description="Meet employer & visa language requirements."
+          title="Language + Licensing Support"
+          description="Complete your language and licensing requirements with ease"
           icon={<LanguageIcon />}
         />
 
         <FeatureCard
           className={styles.thirdFeatureCard}
-          title="Visa Support"
-          description="Assistance with visa application process."
+          title="Job Matching with Top Hospitals"
+          description="Land roles at reputed hospitals in our prime destinations"
           icon={<VisaIcon />}
         />
         <div className="w-100 d-flex justify-content-center">
