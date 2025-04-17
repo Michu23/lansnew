@@ -16,7 +16,7 @@ const ContentSection = () => {
           </h1>
         </header>
         <p className={`text-center text-white ${styles.description}`}>
-          Join thousands of nurses advancing their careers with Lanstitute.
+          Join thousands of nurses advancing their careers with Lanstitut.
         </p>
       </div>
       <div className="d-flex justify-content-center gap-3">

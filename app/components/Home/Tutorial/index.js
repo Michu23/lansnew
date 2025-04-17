@@ -51,36 +51,19 @@ export default function Tutorial() {
             pace.
           </span>
         </div>
-        <div
-          className="d-flex gap-4"
-          style={{
-            overflow: "scroll",
-          }}
-        >
+        <div className={`${styles.scrollContainer}`}>
           {videos.map((video) => (
-            <div key={video.id} className="col-12 col-md-4 mb-4">
+            <div key={video.id} className={styles.videoCardWrapper}>
               <div className={styles.blogPostCard}>
                 <div className={styles.imageContainer}>
                   <div className={styles.frameContainer}>
                     <iframe
-                      width="100%"
-                      height="300"
                       src={`https://www.youtube.com/embed/${video.youtubeId}`}
                       title={video.title}
-                      style={{
-                        height: "300px",
-                        width: "100%",
-                        objectFit: "cover",
-                        objectPosition: "center",
-                        borderRadius: "10px",
-                        border: "none",
-                        margin: "0",
-                        padding: "0",
-                      }}
-                      frameBorder="0"
+                      className={styles.thumbnailImage}
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
-                    ></iframe>
+                    />
                   </div>
                 </div>
                 <div className={styles.contentSection}>

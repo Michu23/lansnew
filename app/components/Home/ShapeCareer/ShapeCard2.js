@@ -241,15 +241,17 @@ export default function ShapeCard2() {
           </div>
         </div> */}
       </div>
-      <div className={styles.Image_1_5864}>
+      <div className="d-flex justify-content-center">
         <Image
           src="/assets/Home/Card2.png"
           alt="Shape Career"
+          className="mt-4"
           width={500}
           height={500}
           style={{
             objectFit: "cover",
             objectPosition: "center",
+            maxWidth: "100%",
           }}
         />
       </div>

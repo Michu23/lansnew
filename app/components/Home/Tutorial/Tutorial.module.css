@@ -240,6 +240,14 @@
   .supportingText {
     font-size: 0.85rem;
   }
+
+  .scrollContainer {
+    padding: 1rem 0.5rem;
+  }
+
+  .videoCardWrapper {
+    width: 280px;
+  }
 }
 
 /* Extra Small (xs) */
@@ -283,4 +291,25 @@
   .courseDescription {
     font-size: 0.9rem;
   }
+}
+.scrollContainer {
+  display: flex;
+  gap: 1.5rem;
+  width: 100%;
+  overflow-x: auto;
+  padding: 1rem 0;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.scrollContainer::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.videoCardWrapper {
+  flex: 0 0 auto;
+  width: 300px;
+  scroll-snap-align: start;
 }

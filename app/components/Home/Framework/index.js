@@ -12,7 +12,7 @@ export default function FrameworkSection() {
                 <span className={styles.badgeText}>Our Learning Framework</span>
               </div>
               <div className={styles.titleContainer}>
-                <span className={styles.mainTitle}>The Lanstitute Pathway</span>
+                <span className={styles.mainTitle}>The Lanstitut Pathway</span>
                 <span className={styles.mainDescription}>
                   A structured process designed to build global
                   readiness—through foundational learning, interview-focused
