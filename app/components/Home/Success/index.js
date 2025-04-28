@@ -17,28 +17,28 @@ const Success = () => {
 
   const metrics = [
     {
-      number: "60K",
-      label: "Global Job Placements",
+      number: "50+",
+      label: "Experienced Faculties",
       bg: "#FEFAF0",
       color: "#634818",
       gap: "80px",
     },
     {
-      number: "100K",
+      number: "5K",
       label: "Happy Clients ",
       bg: "#F8F9FF",
       color: "#102643",
       gap: "60px",
     },
     {
-      number: "100%",
+      number: "99%",
       label: "Career Success Stories",
       bg: "#F8F9FF",
       color: "#102643",
       gap: "60px",
     },
     {
-      number: "95%",
+      number: "90%",
       label: "Visa & Relocation Success",
       bg: "#FEFAF0",
       color: "#634818",
