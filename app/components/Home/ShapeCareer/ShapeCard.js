@@ -185,30 +185,10 @@ export default function ShapeCard() {
             </div>
           </div>
         </div>
-        {/* <div className={styles.Button_1_5860}>
-          <span className={styles.LearnMore_1_5861}>Learn More</span>
-          <div className={styles.ArrowUpRight_1_5862}>
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M4.92893 12.0008H19.0711M19.0711 12.0008L12 4.92969M19.0711 12.0008L12 19.0718"
-                stroke="white"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
-        </div> */}
       </div>
       <div className="col-12 col-md-6 d-flex justify-content-center">
         <Image
-          src="/assets/Home/Card.png"
+          src="/assets/Home/Languages.jpg"
           alt="Shape Career"
           width={500}
           height={500}

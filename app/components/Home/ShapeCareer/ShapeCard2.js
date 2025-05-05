@@ -209,7 +209,7 @@ export default function ShapeCard2() {
       </div>
       <div className="d-flex justify-content-center">
         <Image
-          src="/assets/Home/Card2.png"
+          src="/assets/Home/Medical.jpg"
           alt="Shape Career"
           className="mt-4"
           width={500}

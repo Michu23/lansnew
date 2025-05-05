@@ -11,6 +11,8 @@ import Framework from "./components/Home/Framework";
 import CTA from "./components/Home/CTA";
 import styles from "./page.module.css";
 import HeroSection from "./components/Home/Banner/index";
+import FormDialog from './components/FormDialog';
+
 export async function generateMetadata() {
   const Pagedata = {
     heading: "Lanstitut - German Language Institute & Job Placement Services",
@@ -89,6 +91,7 @@ export default function Home() {
     <div>
       <Header />
       <main className={styles.main}>
+        <FormDialog />
         <section className={styles.section}>
           <HeroSection />
         </section>

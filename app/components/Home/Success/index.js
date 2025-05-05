@@ -73,34 +73,6 @@ const Success = () => {
           </div>
 
           <div className="col-12 col-md-6">
-            {/* <div className="row">
-              {metrics.map((metric, index) => (
-                <motion.div
-                  key={index}
-                  className="col-5 p-3 m-1"
-                  style={{
-                    backgroundColor: metric.bg,
-                    color: metric.color,
-                    width: "309px",
-                    padding: "20px",
-                    borderRadius: "10px",
-                  }}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={controls}
-                  variants={{
-                    visible: {
-                      opacity: 1,
-                      y: 0,
-                      transition: { duration: 0.6, delay: 0.2 * index },
-                    },
-                  }}
-                >
-                  <h3>{metric.number}</h3>
-                  <p>{metric.label}</p>
-                </motion.div>
-              ))}
-            </div> */}
-
             <div className="d-flex gap-2">
               <div className={styles.metricCard}>
                 {metrics?.slice(0, 2).map((metric, index) => (
